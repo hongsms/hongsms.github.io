@@ -1,1 +1,1 @@
-www.hongsm.top
+hongsm.top
