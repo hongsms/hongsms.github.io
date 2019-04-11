@@ -1,204 +1,357 @@
-﻿<!--[if lt IE 9]><script>window.location.href="./error/index.html"</script><![endif]-->
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-cn">
+
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="renderer" content="webkit">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
   <meta name="format-detection" content="telephone=no">
   <meta name="wap-font-scale" content="no">
-  <title>35-刺猬汽车</title>
+  <title>青岛金晶股份有限公司</title>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/layout.css">
-  <link rel="stylesheet" href="css/responsive.css">
-  <script src="js/jquery-2.2.4.min.js"></script>
-  <script src="js/plugin.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/common.js"></script>
   <script src="js/main.js"></script>
   <!--[if lt IE 9]><script src="//cdn.bootcss.com/rem/1.3.4/js/rem.min.js"></script><script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script><script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
 </head>
+
 <body>
-  <!--header-->
-  <header class="header">
-    <a href="" class="logo"><img src="images/logo.png" alt="logo"></a>
-    <div class="menu-btn tac f12"><div class="box"><div></div><div></div><div></div></div><span>MENU</span></div>
+  <!--Header-->
+  <header>
+    <div class="header">
+      <div class="clearfix">
+        <a href="" class="logo fl"><img src="images/logo.png" alt="Logo"></a>
+        <div class="language fr">
+          <a href=""><img src="images/language_icon1.png" alt="">English</a>
+        </div>
+        <div class="header-btn fr">
+          <a href=""><img src="images/header_qq.png" alt=""></a>
+        </div>
+        <div class="search-btn fr"></div>
+        <nav class="fr">
+          <ul class="clearfix">
+            <li>
+              <a href="">首页</a>
+            </li>
+            <li>
+              <a href="">关于我们</a>
+              <div class="sub-nav abs">
+                <a href="" class="db">二级菜单</a>
+                <a href="" class="db">二级菜单</a>
+                <a href="" class="db">二级菜单</a>
+              </div>
+            </li>
+            <li>
+              <a href="">产品展示</a>
+            </li>
+            <li>
+              <a href="">公司新闻</a>
+            </li>
+            <li>
+              <a href="">荣誉资质</a>
+            </li>
+            <li>
+              <a href="">案例展示</a>
+            </li>
+            <li>
+              <a href="">联系我们</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="header-m dn">
+      <a href="" class="logo"><img src="images/logo.png" alt="Logo"></a>
+      <div class="m-menu-b"></div>
+      <div class="m-menu">
+        <ul class="nav hsms">
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a href="">About us</a>
+            <ul class="sub-nav hsms">
+              <li>
+                <a href="">二级菜单</a>
+              </li>
+              <li>
+                <a href="">二级菜单</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <div class="m-language">
+          <a href="">CN</a>
+          <a href="">EN</a>
+        </div>
+      </div>
+      <div class="m-search-b"></div>
+    </div>
+    <div class="fix-search fix-wrap dn">
+      <div class="dfcc wh1">
+        <form class="search dfcc ov">
+          <input class="txt fl" placeholder="Search" type="text">
+          <input class="btn fr" value="ENTER" type="submit">
+        </form>
+      </div>
+      <button class="hide"></button>
+    </div>
   </header>
-  <menu>
-    <nav class="col-lg-6 dt">
-      <ul class="dtcell">
-        <li class="cur"><a href="">车型</a></li>
-        <li><a href="">新闻资讯</a></li>
-        <li><a href="">服务&支持</a></li>
-        <li><a href="">分时共享</a></li>
-        <li><a href="">联系</a></li>
-      </ul>
-    </nav>
-    <div class="info col-lg-6">
-      <div class="link tar abs">
-        <a href="">招贤纳士</a>
-        <a href="">网站地图</a>
-        <a href="">隐私政策</a>
-      </div>
+  <!--Banner-->
+  <div class="i-banner imgs">
+    <div class="sliders sm-dn">
+      <a href=""><img src="testimg/banner.jpg" alt=""></a>
+      <a href=""><img src="testimg/banner.jpg" alt=""></a>
+      <a href=""><img src="testimg/banner.jpg" alt=""></a>
     </div>
-  </menu>
-  <!--banner-->
-  <div class="i-banner ov">
-    <ul>
-      <li style="background-image: url(testimg/banner.jpg);">
-        <div class="img"><img src="testimg/banner.jpg" alt="" class="dn"></div>
-        <div class="txt abs">
-          <h3>2018 CW</h2>
-          <strong>带你领略全新视界</strong>
-          <div class="btn">
-            <a href="">品鉴</a>
-            <a href="">预定</a>
-          </div>
-        </div>
-      </li>
-      <li style="background-image: url(testimg/banner.jpg);">
-        <div class="img"><img src="testimg/banner.jpg" alt="" class="dn"></div>
-        <div class="txt abs">
-          <h3>2018 CW</h2>
-          <strong>带你领略全新视界</strong>
-          <div class="btn">
-            <a href="">品鉴</a>
-            <a href="">预定</a>
-          </div>
-        </div>
-      </li>
-      <li style="background-image: url(testimg/banner.jpg);">
-        <div class="img"><img src="testimg/banner.jpg" alt="" class="dn"></div>
-        <div class="txt abs">
-          <h3>2018 CW</h2>
-          <strong>带你领略全新视界</strong>
-          <div class="btn">
-            <a href="">品鉴</a>
-            <a href="">预定</a>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-  <!--main-->
-  <div class="i-main">
-    <div class="i-video tac hsm slideInUp" style="background-image: url(images/video_bg.jpg);"><a href="javascript:;" viurl="video/video.mp4"><img src="images/i_video.png" alt=""></a></div>
-    <div class="i-about" style="background-image: url(images/i_about_bg.jpg);">
-      <h3 class="tac hsm zoomIn">都市青年白领的<br>第一辆车</h3>
-      <div class="tac txt pt40 hsm slideInUp">刺猬2018满足年轻一族对高端、智能、无缝互联的电动车新时代的所有幻想<br>颠覆一切，只为了超越一切。不同寻常，却更好！</div>
-    </div>
-    <div class="i-guide clearfix">
-      <div class="col-lg-6 col-sm-12">
-        <div class="item item1">
-          <div class="dt c0 wh1 hsm slideInLeft">
-            <div class="dtcell">
-              <h3 class="els">服务</h3>
-              <div class="f24 pt20 pb40">未来，我们期待与你同行</div>
-              <a href="" class="dt btn">
-                <div class="dtcell">即刻<br>拥有</div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="item item2" style="background-image: url(images/i_service_bg.jpg);">
-          <div class="dt cf wh1 hsm slideInUp">
-            <div class="dtcell">
-              <h3 class="els">服务</h3>
-              <div class="f24 pt20 pb40">未来，我们期待与你同行</div>
-              <a href="" class="dt btn">
-                <div class="dtcell">即刻<br>拥有</div>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="pic col-lg-6 col-sm-12" style="background-image: url(images/i_app_bg.jpg);">
-        <div class="dt cf wh1 hsm slideInRight">
-          <div class="dtcell">
-            <div class="txt1"><span>CW</span><em class="pl10">App</em></div>
-            <div class="txt2">智能</div>
-            <div class="txt3 pt10">
-              全世界最好玩的车<br>
-              也是足够安全的<br>
-              智能汽车
-            </div>
-            <div class="img"><img src="testimg/1.png" alt=""></div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="i-news">
-      <div class="title col-lg-4 col-sm-12 hsm slideInLeft">
-        <span>NEWS</span>
-        <em>资讯</em>
-      </div>
-      <div class="clear"></div>
-      <ul class="clerfix">
-        <li class="hsm slideInUp">
-          <a href="" class="db img-md">
-            <div class="info">
-              <div class="date">JUNE 15, 2017</div>
-              <h3 class="els pt5 pb15 tra">CW01 车辆测试： 动态车辆控制</h3>
-              <div class="f16 c0 els">动态、智能、互联——CW01的设计与车辆工程将重塑您对汽车性能的认知。</div>              
-            </div>
-            <div class="img ov"><img src="testimg/1.jpg" alt="" class="wh1"></div>
-          </a>
-        </li>
-        <li class="hsm slideInUp">
-          <a href="" class="db img-md">
-            <div class="info">
-              <div class="date">JUNE 15, 2017</div>
-              <h3 class="els pt5 pb15 tra">CW01 车辆测试： 动态车辆控制</h3>
-              <div class="f16 c0 els">动态、智能、互联——CW01的设计与车辆工程将重塑您对汽车性能的认知。</div>              
-            </div>
-            <div class="img ov"><img src="testimg/2.jpg" alt="" class="wh1"></div>
-          </a>
-        </li>
-        <li class="hsm slideInUp">
-          <a href="" class="db img-md">
-            <div class="info">
-              <div class="date">JUNE 15, 2017</div>
-              <h3 class="els pt5 pb15 tra">CW01 车辆测试： 动态车辆控制</h3>
-              <div class="f16 c0 els">动态、智能、互联——CW01的设计与车辆工程将重塑您对汽车性能的认知。</div>              
-            </div>
-            <div class="img ov"><img src="testimg/1.jpg" alt="" class="wh1"></div>
-          </a>
-        </li>
-      </ul>
+    <div class="sliders dn sm-db">
+      <a href=""><img src="testimg/banner.jpg" alt=""></a>
+      <a href=""><img src="testimg/banner.jpg" alt=""></a>
+      <a href=""><img src="testimg/banner.jpg" alt=""></a>
     </div>
   </div>
-  <!--footer-->
+  <!--Main-->
+  <main class="i-main">
+    <div class="i-about">
+      <div class="con clearfix">
+        <div class="con-l fl sm-12 sm-ha" hsm="fader">
+          <a href="javascript:;" class="imgs db wh1 img-md video-open" vurl="http://goss.vcg.com/html/video/maybanner.mp4"><img
+              src="testimg/2.jpg" alt=""></a>
+        </div>
+        <div class="con-r fr dfccs sm-12 sm-ha" hsm="fadel">
+          <h3>
+            <i class="db">倡导节能环保理念 坚持绿色发展</i>
+            <em class="db fb mt10">青岛金晶股份有限公司</em>
+          </h3>
+          <div class="edit c6 mt30 mb50 sm-mb30">
+            青岛金晶股份有限公司创立于1993年，坐落于青岛西海岸新区，是集玻璃研发、制造与加工为一体的技术型企业，是中国压花玻璃、夹丝玻璃、光伏太阳能玻璃和轨道车辆玻璃行业标准的主持/参与制定者，是全国重要的新材料和新能源骨干企业。近年来，公司不断实施战略调整和产业升级，重点发展轨道交通玻璃、压花幕墙玻璃、超白太阳能玻璃和高硼硅玻璃等。
+            在轨道交通领域，中国第一批次高速机车用玻璃由青岛金晶研发提供，目前在线运营的多数高速机车，其玻璃产品均采用金晶产品。
+            在压花幕墙玻璃领域，公司自主研发的压花幕墙玻璃，解决了困扰城市发展的光污染问题，填补了国内外空白。
+            在超白太阳能玻璃领域，公司超白太阳能玻璃融合了当今世界最先进的压延玻璃技术和超白玻璃生产技术，现已实现与国际知名企业的产业配套。
+          </div>
+          <div class="more"><a href="" class="db">更多<img src="images/i_more_icon.png" alt=""></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="i-news pt45 pb50">
+      <div class="con">
+        <h2 class="fb">
+          <span>News center</span>
+          <em>新闻资讯</em>
+        </h2>
+        <div class="list mt30 mb25 sm-mt10">
+          <div class="item">
+            <a href="" class="db img-md">
+              <div class="imgs sm-12 sm-ha"><img src="testimg/1.jpg" alt=""></div>
+              <div class="clearfix pt20">
+                <h3 class="els fl fb tra">山东上市公司动能转换初见真章：创新驱动 市场引领</h3>
+                <div class="date fr">2018-07-02</div>
+              </div>
+              <div class="els2 c6 li25 mt20 mb20 sm-mt10 sm-mb10">
+                随着山东省新旧动能转换日趋深入，上市公司高质量发展已成战略关键。日前，由金融界主办、金晶科技（600586.SH）战略合作的“动能转换、产业升级
+                山东省上市公司高质量发展研讨会”在山东省淄博市召开。来自山东省证监局、山东上市公司协会、淄博市金融办等政府机构、行业协会的相关领导
+              </div>
+              <i>阅读全文</i>
+            </a>
+          </div>
+          <div class="item">
+            <a href="" class="db img-md">
+              <div class="imgs sm-12 sm-ha"><img src="testimg/1.jpg" alt=""></div>
+              <div class="clearfix pt20">
+                <h3 class="els fl fb tra">山东上市公司动能转换初见真章：创新驱动 市场引领</h3>
+                <div class="date fr">2018-07-02</div>
+              </div>
+              <div class="els2 c6 li25 mt20 mb20 sm-mt10 sm-mb10">
+                随着山东省新旧动能转换日趋深入，上市公司高质量发展已成战略关键。日前，由金融界主办、金晶科技（600586.SH）战略合作的“动能转换、产业升级
+                山东省上市公司高质量发展研讨会”在山东省淄博市召开。来自山东省证监局、山东上市公司协会、淄博市金融办等政府机构、行业协会的相关领导
+              </div>
+              <i>阅读全文</i>
+            </a>
+          </div>
+          <div class="item">
+            <a href="" class="db img-md">
+              <div class="imgs sm-12 sm-ha"><img src="testimg/1.jpg" alt=""></div>
+              <div class="clearfix pt20">
+                <h3 class="els fl fb tra">山东上市公司动能转换初见真章：创新驱动 市场引领</h3>
+                <div class="date fr">2018-07-02</div>
+              </div>
+              <div class="els2 c6 li25 mt20 mb20 sm-mt10 sm-mb10">
+                随着山东省新旧动能转换日趋深入，上市公司高质量发展已成战略关键。日前，由金融界主办、金晶科技（600586.SH）战略合作的“动能转换、产业升级
+                山东省上市公司高质量发展研讨会”在山东省淄博市召开。来自山东省证监局、山东上市公司协会、淄博市金融办等政府机构、行业协会的相关领导
+              </div>
+              <i>阅读全文</i>
+            </a>
+          </div>
+          <div class="item">
+            <a href="" class="db img-md">
+              <div class="imgs sm-12 sm-ha"><img src="testimg/1.jpg" alt=""></div>
+              <div class="clearfix pt20">
+                <h3 class="els fl fb tra">山东上市公司动能转换初见真章：创新驱动 市场引领</h3>
+                <div class="date fr">2018-07-02</div>
+              </div>
+              <div class="els2 c6 li25 mt20 mb20 sm-mt10 sm-mb10">
+                随着山东省新旧动能转换日趋深入，上市公司高质量发展已成战略关键。日前，由金融界主办、金晶科技（600586.SH）战略合作的“动能转换、产业升级
+                山东省上市公司高质量发展研讨会”在山东省淄博市召开。来自山东省证监局、山东上市公司协会、淄博市金融办等政府机构、行业协会的相关领导
+              </div>
+              <i>阅读全文</i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="i-case">
+      <div class="pic-slider-w rel">
+        <div class="t-pic-slider">
+          <div class="rel">
+            <div class="imgs"><img src="testimg/3.jpg" alt=""></div>
+            <div class="info abs tac dfccs cf">
+              <h3 class="fb"><span>案例展示</span></h3>
+              <em class="db fb">案例展示</em>
+              <div class="edit tac">
+                大剧院的外围墙将采用翡翠色调，结构采用双层换气玻璃幕墙系统，当强光照在外面一层玻璃时，夹在两层玻璃中间的空气变热就从顶部冲出去，这样，不仅可以使墙体美观，而且可以有效缓解内层过热。
+                由于外围玻璃墙体为内透光..
+                看起来，大剧院就像透明、炙热的水晶球。
+              </div>
+              <div class="more">
+                <a href="" class="db">更多<img src="images/i_more_icon.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+          <div class="rel">
+            <div class="imgs"><img src="testimg/3.jpg" alt=""></div>
+            <div class="info abs tac dfccs cf">
+              <h3 class="fb"><span>案例展示2</span></h3>
+              <em class="db fb">案例展示</em>
+              <div class="edit tac">
+                大剧院的外围墙将采用翡翠色调，结构采用双层换气玻璃幕墙系统，当强光照在外面一层玻璃时，夹在两层玻璃中间的空气变热就从顶部冲出去，这样，不仅可以使墙体美观，而且可以有效缓解内层过热。
+                由于外围玻璃墙体为内透光..
+                看起来，大剧院就像透明、炙热的水晶球。
+              </div>
+              <div class="more">
+                <a href="" class="db">更多<img src="images/i_more_icon.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+          <div class="rel">
+            <div class="imgs"><img src="testimg/3.jpg" alt=""></div>
+            <div class="info abs tac dfccs cf">
+              <h3 class="fb"><span>案例展示3</span></h3>
+              <em class="db fb">案例展示</em>
+              <div class="edit tac">
+                大剧院的外围墙将采用翡翠色调，结构采用双层换气玻璃幕墙系统，当强光照在外面一层玻璃时，夹在两层玻璃中间的空气变热就从顶部冲出去，这样，不仅可以使墙体美观，而且可以有效缓解内层过热。
+                由于外围玻璃墙体为内透光..
+                看起来，大剧院就像透明、炙热的水晶球。
+              </div>
+              <div class="more">
+                <a href="" class="db">更多<img src="images/i_more_icon.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+          <div class="rel">
+            <div class="imgs"><img src="testimg/3.jpg" alt=""></div>
+            <div class="info abs tac dfccs cf">
+              <h3 class="fb"><span>案例展示3</span></h3>
+              <em class="db fb">案例展示</em>
+              <div class="edit tac">
+                大剧院的外围墙将采用翡翠色调，结构采用双层换气玻璃幕墙系统，当强光照在外面一层玻璃时，夹在两层玻璃中间的空气变热就从顶部冲出去，这样，不仅可以使墙体美观，而且可以有效缓解内层过热。
+                由于外围玻璃墙体为内透光..
+                看起来，大剧院就像透明、炙热的水晶球。
+              </div>
+              <div class="more">
+                <a href="" class="db">更多<img src="images/i_more_icon.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul class="b-pic-slider md-dn">
+          <div>
+            <div class="imgs"><img src="testimg/3.jpg" alt=""></div>
+          </div>
+          <div>
+            <div class="imgs"><img src="testimg/3.jpg" alt=""></div>
+          </div>
+          <div>
+            <div class="imgs"><img src="testimg/3.jpg" alt=""></div>
+          </div>
+          <div>
+            <div class="imgs"><img src="testimg/3.jpg" alt=""></div>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <!--Footer-->
   <footer>
-    <div class="foot-head">
-      <span class="cf col-sm-12">订阅CW汽车的最新消息</span><input class="txt f16 c6 tra" placeholder="电子邮箱" type="text"><input class="btn tra" type="submit" value="订阅">
+    <div class="footer-txt tac cf dfcc sm-dn">
+      <em class="fb mr10">引领企业发展，跻身为玻璃需求行业的主要供应商！</em>
+      <a href="">联系我们</a>
     </div>
-    <div class="copright clearfix">
-      <div class="fl copright-l col-sm-12 f12 c6 hsm slideInLeft">© 2018  35.com   刺猬汽车   All rights reserved  闽B2-20050004-16</div>
-      <div class="fr copright-r hsm slideInRight">
-        <div class="fl f12 c6 pr25">
-          <a href="">网站地图</a>
-          <span class="pl15 pr15">|</span>
-          <a href="">隐私政策</a>
+    <div class="footer-head clearfix">
+      <dl class="fl">
+        <dt>产品展示</dt>
+        <dd><a href="">普白玻璃</a></dd>
+        <dd><a href="">超白玻璃</a></dd>
+        <dd><a href="">夹丝玻璃</a></dd>
+        <dd><a href="">深加工玻璃</a></dd>
+      </dl>
+      <dl class="fl">
+        <dt>公司新闻</dt>
+        <dd><a href="">生产动态</a></dd>
+        <dd><a href="">内部新闻</a></dd>
+        <dd><a href="">内部视频</a></dd>
+        <dd><a href="">活动图片</a></dd>
+      </dl>
+      <dl class="fl">
+        <dt>荣誉资质</dt>
+        <dd><a href="">荣誉资质</a></dd>
+      </dl>
+      <dl class="fl">
+        <dt>案例展示</dt>
+        <dd><a href="">案例展示</a></dd>
+      </dl>
+      <dl class="fl">
+        <dt>关于我们</dt>
+        <dd><a href="">公司介绍</a></dd>
+        <dd><a href="">企业文化</a></dd>
+        <dd><a href="">组织架构</a></dd>
+        <dd><a href="">人才招聘</a></dd>
+      </dl>
+      <dl class="fl">
+        <dt>联系我们</dt>
+        <dd><a href="">联系方式</a></dd>
+        <dd><a href="">在线留言</a></dd>
+      </dl>
+      <div class="info fr clearfix">
+        <div class="con-l fl">
+          <div class="img"><img src="testimg/erweima.jpg" alt=""></div>
+          <em class="db tac">青岛金晶二维码</em>
         </div>
-        <div class="fl bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1513248240994">
-          <a href="javascript:;" class="a1" data-cmd="linkedin" title="分享到linkedin"></a>
-          <a href="javascript:;" class="a2" data-cmd="tsina" title="分享到新浪微博"></a>
-          <a href="javascript:;" class="a3" data-cmd="weixin" title="分享到微信"></a>
+        <div class="con-r fr">
+          <i class="db fb">联系方式</i>
+          <em class="db fb mt10 mb5">0532-18562837059</em>
+          <div class="txt">
+            地址：青岛经济技术开发区江山北路201号<br>
+            传真：0532-86907443<br>
+            邮箱：442996984@qq.com
+          </div>
         </div>
-        <div class="clear"></div>
+      </div>
+    </div>
+    <div class="footer-b pt15 pb15 clearfix">
+      <div class="copyright fl">Copyright © 2018青岛金晶股份有限公司</div>
+      <div class="fr bdsharebuttonbox bdshare-button-style0-16" data-bd-bind="1513248240994">
+        <a style="background-image: url(images/share_1.png)" href="javascript:;" data-cmd="qzone"></a>
+        <a style="background-image: url(images/share_2.png)" href="javascript:;" data-cmd="tsina"></a>
+        <a style="background-image: url(images/share_3.png)" href="javascript:;" data-cmd="weixin"></a>
       </div>
     </div>
   </footer>
-
-  <!--fix-->
-  <div class="fix-wrap dn">
-    <div class="po-auto">
-      <div class="dtcell video-w"></div>
-      <button class="hide"></button>
-    </div>
-  </div>
-
-  <script>$(function(){$(".i-banner ul").owlCarousel({singleItem:true,addClassActive:true,autoPlay:true,stopOnHover:true,slideSpeed:500,navigation:true,mouseDrag:false,});$(".i-news ul").owlCarousel({items:3,autoPlay:true,stopOnHover:true,slideSpeed:500,navigation:true,mouseDrag:false,})});</script>
-
+  <div id="gotop"></div>
+  <script>$(function(){sliders(".i-news .list",3);$(".pic-slider-w .t-pic-slider").slick({speed:800,draggable:false,dots:true,adaptiveHeight:true,asNavFor:".b-pic-slider",});$(".pic-slider-w .b-pic-slider").slick({speed:800,draggable:false,adaptiveHeight:true,slidesToShow:3,slidesToScroll:1,asNavFor:".t-pic-slider",focusOnSelect:true,})});</script>
 </body>
+
 </html>
